@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+#pagina{
+	width: 1200px;
+	margin: auto;
+}
+#banner{
+	width: 100%;
+	height: 30%;
+}
+#lista{
+	background-color: orange;
+	width: 100%;
+	height: 7%;
+	margin: 3% 0 3% 0;
+	padding: 10px 0 10px 0;
+	
+}
+#lista ul li {
+	padding: 10px 10px;
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 70px 0 70px;
+}
+#lista ul li a {
+    text-decoration: none;
+	color: #ffffff;
+}
+#contem{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+#conteudo{
+	width: 65%;
+	flex-flow: row wrap;
+	padding: 25px 0 25px 25px;
+}
+#imagem{
+	width: 30%;
+	padding: 25px 0 0 30px; 
+	float: right;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	border-bottom-color: Moccasin;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	padding: 2px 0 2px 0;
+}
+p{
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	color: #999999;
+	line-height: 24px;
+	text-align: justify;
+	padding: 7px 0 7px 0;
+}
+#caixas{
+	display: flex;
+}
+.quadrado {
+	background-color: orange;
+	width: 30%;
+	height: 32%;
+	margin: 5px;
+	padding: 1%;
+}
+.quad{
+	color: white;
+}
+.dolor {
+    text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	padding-left: 5%;
+}
+#aviao{
+	width: 100%;
+}
+#final{
+	display: flex;
+	justify-content: space-around;
+	border-top-color: gray;
+	border-top-width: 5px;
+	border-top-style: solid;
+	padding-top: 10px;
+}
