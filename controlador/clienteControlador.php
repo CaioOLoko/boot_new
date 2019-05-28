@@ -21,6 +21,9 @@ require_once "modelo/clienteModelo.php";
    if (strlen(trim($_POST['senha'])) == 0) {
          $errors[] = "Você deve inserir uma semha.";
   }
+  
+           $msg = cadastroCliente($nome, $email, $senha);
+           echo $msg;
          
         redirecionar("cliente/cadastro");
    } else {
